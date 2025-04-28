@@ -10,15 +10,7 @@ Running dg.py
 
 # Some other notes:
 You may need to set up Docker first before it runs (should be an error message that says "docker isn't found" for this). I used these instructions to open that up: https://docs.docker.com/engine/install/ubuntu/#install-using-the-repository 
-It uses these instructions to set up docker (copy and pasted from the official documentation):
-
-sudo apt-get update
-sudo apt-get install ca-certificates curl
-sudo install -m 0755 -d /etc/apt/keyrings
-sudo curl -fsSL https://download.docker.com/linux/ubuntu/gpg -o /etc/apt/keyrings/docker.asc
-sudo chmod a+r /etc/apt/keyrings/docker.asc
-
-sudo apt-get update
+It uses these instructions to set up docker (I copy and pasted from the official documentation).
 
 # Docker
 Then, you may need to give Docker some permissions using:
