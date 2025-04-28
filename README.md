@@ -16,4 +16,4 @@ Then, you may need to give Docker some permissions using: "sudo usermod -aG dock
 I also remember that the original files may have gotten nested somewhere an additional numbers of time (if you see an error message like /gb-hilab-suite/some-file not found), so you may need to extract the inner files to its immediate parent's directory using a mv command. You may also encounter a WORK_PATH undefined error, in which case, you can set that path to really anywhere (I used my Desktop) using something like "export WORK_PATH=/mnt/c/Users/logan/Desktop".
 
 # End
-And yeah! That's generally it. Lmk if I can help with any issues that may arise.
+And yeah! That's generally it. Lmk if I can help with any issues that may arise. The first time it runs, it will take a while to run (~10 mins on my computer). But after that, it should be much faster.
